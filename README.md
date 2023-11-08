@@ -11,7 +11,7 @@ Step 1:
 -execute: npm install -g @angular/cli on the default system terminal and hit enter. For Mac you will need to add sudo command to give it permission.
 
 Step 2: 
--Create a folder where you want to store the project. For example create a folder called "My_Angular_App".
+-Create a folder where you want to store the project. For example create a folder called "My_Angular_App". Use mkdir command.
 -In the default system terminal, once the angular is installed, cd to the folder previously created and type "ng new (title of the app)". It can be anything
 for example: "ng new my-first-app".
 -For first timers: include" --no-strict --standalone false --routing false"
