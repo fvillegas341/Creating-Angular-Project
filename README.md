@@ -28,7 +28,16 @@ Step 3: Adding bootstrap
 
 -add npm install --save bootstrap@3
 
--once installed, inform the CLI by going into the .angular-cli.json file and under styles array target the path of the file "nodes_modules/bootstrap/dist/css/bootstrap.min.css"
+-once installed, inform the CLI by going into the .angular-cli.json file and under styles array target the path of the file "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+-verify it works by inputting a bootstrap class in the html. For example
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>I'm working</h2>
+    </div>
+  </div>
+</div>
 
 
 
