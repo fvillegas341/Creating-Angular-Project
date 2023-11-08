@@ -24,4 +24,12 @@ for example: "ng new my-first-app".
 
 -cd to the application. For example: cd my-first-app then type ng serve to make sure it works. It works if it is compiled successfully.
 
+Step 3: Adding bootstrap
+
+-add npm install --save bootstrap@3
+
+-once installed, inform the CLI by going into the .angular-cli.json file and under styles array target the path of the file "nodes_modules/bootstrap/dist/css/bootstrap.min.css"
+
+
+
   
